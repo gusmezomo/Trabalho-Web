@@ -1,0 +1,94 @@
+/* Reset e fontes básicas */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Cores principais */
+  body {
+    background-color: #f4eefc;
+    color: #333;
+  }
+  
+  /* Cabeçalho roxo */
+  header {
+    background-color: #6a1b9a;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  /* Container principal do conteúdo */
+  div {
+    background-color: #fff;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Títulos */
+  h2 {
+    font-size: 24px;
+    color: #222;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  /* Formulário */
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  form input[type="text"],
+  form input[type="number"],
+  form input[type="date"],
+  form input[type="file"],
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Textarea */
+  textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  /* Inputs lado a lado (como câmbio e opcionais) */
+  form input[type="radio"],
+  form input[type="checkbox"] {
+    margin-right: 5px;
+    margin-top: 10px;
+  }
+  
+  /* Botão enviar */
+  input[type="submit"] {
+    background-color: #6a1b9a;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #53177a;
+  }
+  
