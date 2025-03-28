@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro-Carros</title>
-    <link rel="stylesheet" href="css/styles.css">    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro-Carros</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <header>
@@ -16,73 +16,73 @@
     <p>Descreva as características e escolha os opcionais que seu veículo possui</p>
 
     <form action="#" method="POST">
-      <!-- Título do anúncio -->
-      <label for="titulo">Título do anúncio *</label><br>
-      <input type="text" id="titulo" name="titulo" placeholder="Adicione o título do anúncio" required><br><br>
 
-      <!-- Preço -->
-      <label for="preco">Preço do anúncio *</label><br>
-      <input type="number" id="preco" name="preco" placeholder="Adicione o preço do carro" required><br><br>
+      <div class="form-group">
+        <label for="titulo">Título do anúncio *</label>
+        <input type="text" id="titulo" name="titulo" placeholder="Adicione o título do anúncio" required>
+      </div>
 
-      <!-- Descrição -->
-      <label for="descricao">Descrição *</label><br>
-      <textarea id="descricao" name="descricao" placeholder="Coloque os detalhes do seu veículo" required></textarea><br><br>
+      <div class="form-group">
+        <label for="preco">Preço do anúncio *</label>
+        <input type="number" id="preco" name="preco" placeholder="Adicione o preço do carro" required>
+      </div>
 
-      <!-- Marca -->
-      <label for="marca">Marca do veículo</label><br>
-      <input type="text" id="marca" name="marca" placeholder="Adicione a marca do veículo" required><br><br>
+      <div class="form-group">
+        <label for="descricao">Descrição *</label>
+        <textarea id="descricao" name="descricao" placeholder="Coloque os detalhes do seu veículo" required></textarea>
+      </div>
 
-      <!-- Modelo -->
-      <label for="modelo">Modelo do veículo *</label><br>
-      <input type="text" id="modelo" name="modelo" placeholder="Adicione o modelo do veículo" required><br><br>
+      <div class="form-group">
+        <label for="marca">Marca do veículo *</label>
+        <input type="text" id="marca" name="marca" placeholder="Adicione a marca do veículo" required>
+      </div>
 
-      <!-- Quilometragem -->
-      <label for="km">Kilometragem do veículo *</label><br>
-      <input type="number" id="km" name="km" placeholder="Informe a quilometragem" required><br><br>
+      <div class="form-group">
+        <label for="modelo">Modelo do veículo *</label>
+        <input type="text" id="modelo" name="modelo" placeholder="Adicione o modelo do veículo" required>
+      </div>
 
-      <!-- Data de compra -->
-      <label for="data">Data de compra do veículo *</label><br>
-      <input type="date" id="data" name="data" required><br><br>
+      <div class="form-group">
+        <label for="km">Kilometragem do veículo *</label>
+        <input type="number" id="km" name="km" placeholder="Informe a quilometragem" required>
+      </div>
 
-      <!-- Tipo de câmbio -->
-      <p>Tipo de câmbio *</p>
-      <input type="radio" id="manual" name="cambio" value="manual" required>
-      <label for="manual">Manual</label>
-      <input type="radio" id="automatico" name="cambio" value="automatico" required>
-      <label for="automatico">Automático</label><br><br>
+      <div class="form-group">
+        <label for="data">Data de compra do veículo *</label>
+        <input type="date" id="data" name="data" required>
+      </div>
 
-      <!-- Opcionais -->
-      <p>Opcionais</p>
-      <input type="checkbox" id="airbag" name="opcionais" value="airbag">
-      <label for="airbag">Airbag</label>
+      <div class="form-group">
+        <p>Tipo de câmbio *</p>
+        <div class="radio-group">
+          <label><input type="radio" id="manual" name="cambio" value="manual" required> Manual</label>
+          <label><input type="radio" id="automatico" name="cambio" value="automatico" required> Automático</label>
+        </div>
+      </div>
 
-      <input type="checkbox" id="alarme" name="opcionais" value="alarme">
-      <label for="alarme">Alarme</label>
+      <div class="form-group">
+        <p>Opcionais</p>
+        <div class="checkbox-group">
+          <label><input type="checkbox" id="airbag" name="opcionais" value="airbag"> Airbag</label>
+          <label><input type="checkbox" id="alarme" name="opcionais" value="alarme"> Alarme</label>
+          <label><input type="checkbox" id="ar" name="opcionais" value="ar-condicionado"> Ar Condicionado</label>
+          <label><input type="checkbox" id="camera" name="opcionais" value="camera"> Câmera de Ré</label>
+          <label><input type="checkbox" id="assistente" name="opcionais" value="assistente"> Assistente de Pista</label>
+          <label><input type="checkbox" id="keyless" name="opcionais" value="keyless"> Partida Keyless</label>
+          <label><input type="checkbox" id="celular" name="opcionais" value="celular"> Integração com o Celular</label>
+          <label><input type="checkbox" id="couro" name="opcionais" value="couro"> Bancos de Couro</label>
+        </div>
+      </div>
 
-      <input type="checkbox" id="ar" name="opcionais" value="ar-condicionado">
-      <label for="ar">Ar Condicionado</label>
+      <div class="form-group">
+        <label for="fotos">Fotos do carro *</label>
+        <input type="file" id="fotos" name="fotos" required>
+      </div>
 
-      <input type="checkbox" id="camera" name="opcionais" value="camera">
-      <label for="camera">Câmera de Ré</label><br>
+      <div class="form-group">
+        <input type="submit" value="ENVIAR">
+      </div>
 
-      <input type="checkbox" id="assistente" name="opcionais" value="assistente">
-      <label for="assistente">Assistente de Pista</label>
-
-      <input type="checkbox" id="keyless" name="opcionais" value="keyless">
-      <label for="keyless">Partida Keyless</label>
-
-      <input type="checkbox" id="celular" name="opcionais" value="celular">
-      <label for="celular">Integração com o Celular</label>
-
-      <input type="checkbox" id="couro" name="opcionais" value="couro">
-      <label for="couro">Bancos de Couro</label><br><br>
-
-      <!-- Fotos -->
-      <label for="fotos">Fotos do carro *</label><br>
-      <input type="file" id="fotos" name="fotos" required><br><br>
-
-      <!-- Botão -->
-      <input type="submit" value="ENVIAR">
     </form>
   </div>
 </body>

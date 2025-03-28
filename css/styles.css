@@ -5,6 +5,19 @@
     font-family: Arial, sans-serif;
   }
   
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    border: none;
+  }
+  
+  div {
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+
   /* Fundo da página */
   body {
     background-color: #f4eefc;
@@ -84,4 +97,12 @@
     padding: 12px 20px;
     font-weight: bold;
   }
+
+  /* Agrupar radios e checkboxes lado a lado */
+.radio-group label,
+.checkbox-group label {
+  display: inline-block;
+  margin-right: 20px;
+}
+
   
