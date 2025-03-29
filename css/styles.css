@@ -61,7 +61,6 @@ p {
 form label {
   display: block;
   margin-bottom: 5px;
-  font-weight: bold;
 }
 
 form input[type="text"],
@@ -87,8 +86,10 @@ textarea {
 .radio-group label,
 .checkbox-group label {
   display: inline-block;
-  margin-right: 20px;
+  width: 45%;
+  margin-bottom: 5px;
 }
+
 
 /* Botão enviar */
 input[type="submit"] {
