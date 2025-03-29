@@ -5,11 +5,29 @@
   font-family: Arial, sans-serif;
 }
 
+.aba {
+  background-color: white;
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 20px;
+}
+
+.aba p {
+  color: #6a1b9a;
+  font-size: 12px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #6a1b9a;
+  display: inline-block;
+}
+
+
+
 /* Caixa branca central */
 .container {
   background-color: #fff;
   max-width: 800px;
-  margin: -30px auto 40px auto;
+  margin: 0px auto 40px auto;
   padding: 30px;
   border: 1px solid #e0e0e0;
 }
