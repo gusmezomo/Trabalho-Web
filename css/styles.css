@@ -1,8 +1,7 @@
-/* Reset e fontes básicas */
 * {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: Arial;
 }
 
 .aba {
@@ -15,27 +14,20 @@
 .aba p {
   color: #6a1b9a;
   font-size: 12px;
-  font-weight: bold;
   padding-bottom: 5px;
   border-bottom: 2px solid #6a1b9a;
   display: inline-block;
 }
 
+p {
+  margin-bottom: 10px;
+}
 
-
-/* Caixa branca central */
 .container {
   background-color: #fff;
   max-width: 800px;
-  margin: 0px auto 40px auto;
+  margin: -30px auto 40px auto;
   padding: 30px;
-  border: 1px solid #e0e0e0;
-}
-
-
-/* Altura total da página */
-html, body {
-  height: 100%;
 }
 
 /* Fundo da página */
@@ -58,7 +50,6 @@ header h1 {
   font-size: 20px;
 }
 
-
 /* Agrupamento de campos */
 .form-group {
   margin-bottom: 20px;
@@ -68,10 +59,6 @@ header h1 {
 h2 {
   font-size: 24px;
   color: #222;
-  margin-bottom: 10px;
-}
-
-p {
   margin-bottom: 10px;
 }
 
