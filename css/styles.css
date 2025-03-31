@@ -38,7 +38,6 @@ body {
   color: #333;
 }
 
-
 /* cabeçalho */
 header {
   background-color: #6a1b9a;
@@ -82,9 +81,10 @@ form input[type="file"] {
   background-color: transparent;
 }
 
+/* descrição */
 textarea {
   width: 100%;
-  height: 100px;
+  height: 50px;
   padding: 10px;
   border: 1px solid #ccc;
 }
